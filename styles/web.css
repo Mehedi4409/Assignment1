@@ -6,38 +6,43 @@
     margin: auto;
     margin-top: 50px;
     position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .banner-container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-text1 {
-    text-align: center;
-
-    margin: auto;
 
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
+    font-style: normal;
     font-weight: 400;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, -50%);
+    line-height: normal;
 }
 
 .banner-text2 {
-    
-    margin: auto;
+    max-width: 632px;
 
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
+    font-style: normal;
     font-weight: 900;
-
+    line-height: 95px;
+    /* 131.944% */
 }
 
 /* offer section */
@@ -431,10 +436,13 @@
     font-size: 18px;
     font-weight: 400;
 }
-#sub-button ,#sub{
+
+#sub-button,
+#sub {
     /* align-items: center; */
-    
+
 }
+
 #sub-button {
     position: absolute;
 
@@ -442,7 +450,7 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 60px;
-    
+
     right: 318px;
 
     width: 210px;
@@ -458,7 +466,7 @@
     font-size: 20px;
     font-weight: 600;
 
-    
+
 }
 
 /* foooter */
