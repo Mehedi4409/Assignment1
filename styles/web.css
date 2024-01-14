@@ -1,4 +1,4 @@
-/* .banner {
+.banner {
     background-image: url(../resources/Banner\ Image.png);
     width: 1320px;
     height: 600px;
@@ -7,14 +7,10 @@
     margin-top: 50px;
     position: relative;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .banner-container {
-    /* text-align: center; */
+    text-align: center;
 }
 
 .banner-text1 {
@@ -531,4 +527,4 @@
     margin-right: 5%;
     display: flex;
     justify-content: space-between;
-} */
+}
